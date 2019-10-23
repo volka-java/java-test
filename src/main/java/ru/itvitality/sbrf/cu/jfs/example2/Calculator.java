@@ -2,6 +2,7 @@ package ru.itvitality.sbrf.cu.jfs.example2;
 
 import java.util.concurrent.TimeUnit;
 
+
 public class Calculator {
 
     public int add( int x, int y ) {
@@ -13,6 +14,13 @@ public class Calculator {
             throw new ArithmeticException( "Error divide a number by zero" );
         }
         return x / y;
+    }
+
+    public double korenq(double x) {
+        if ( x < 0 ) {
+            throw new ArithmeticException( "Error (-)" );
+        }
+        return  Math.sqrt( x );
     }
 
     public void longCalculation() throws InterruptedException {

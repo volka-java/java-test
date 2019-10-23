@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ru.itvitality.sbrf.cu.jfs.example2.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.317 s - in ru.itvitality.sbrf.cu.jfs.example2.CalculatorTest

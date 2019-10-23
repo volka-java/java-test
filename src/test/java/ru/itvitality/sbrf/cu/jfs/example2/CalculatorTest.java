@@ -30,6 +30,15 @@ class CalculatorTest {
         } );
     }
 
+    @Test
+    void sqrtByMinus() {
+        int x = - 4;
+
+        assertThrows( ArithmeticException.class, () -> {
+            new Calculator().korenq( x );
+        } );
+    }
+
     @Disabled("Test is ignored as a demonstration")
     @Test
     void testVoid() {

@@ -19,7 +19,8 @@ public class DIYarrayList<E> implements List<E> {
     }
 
     public Iterator<E> iterator() {
-        return null;
+        Iterator<E> o = null;
+        return o;
     }
 
     public Object[] toArray() {
@@ -98,3 +99,4 @@ public class DIYarrayList<E> implements List<E> {
         return null;
     }
 }
+
